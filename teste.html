@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="teste">Ola Mundo</h1>
+</body>
+<script>
+    const h1 = document.getElementById('teste');
+
+     h1.onmouseover = () => {
+            h1.innerHTML = 'Teste de hover Olá mundo';
+        };
+
+        h1.onmouseout = () => {
+            h1.innerHTML = 'Olá mundo';
+        };
+</script>
+</html>
